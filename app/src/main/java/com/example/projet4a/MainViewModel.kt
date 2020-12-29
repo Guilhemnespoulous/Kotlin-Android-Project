@@ -5,9 +5,12 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel(){
 
-    val texte: MutableLiveData<String> = MutableLiveData()
+    val counter: MutableLiveData<Int> = MutableLiveData()
 
     init{
-        texte.value = "Test de texte"
+        counter.value = 0
+    }
+    fun onCLickedIncrement(){
+        counter.value = (counter.value ?: 0) + 1;
     }
 }
