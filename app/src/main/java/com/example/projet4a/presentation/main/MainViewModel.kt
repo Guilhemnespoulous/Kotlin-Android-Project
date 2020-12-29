@@ -20,7 +20,7 @@ class MainViewModel(
     }
     fun onCLickedIncrement(emailUser: String){
         viewModelScope.launch(Dispatchers.IO) {
-            createUserUseCase.invoke(User(emailUser))
+            createUserUseCase.invoke(User("test"))
         }
     }
 }
