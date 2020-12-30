@@ -18,8 +18,16 @@ class PersonnalActivity : AppCompatActivity(){
         val user = intent.getSerializableExtra("key") as User
 
         findViewById<TextView>(R.id.textView).apply {
-            val texte: String = user.email + " - " + user.password + " - " + user.LastName + " - " + user.Name
-            text = texte
+            text = "Email: " + user.email
+        }
+        findViewById<TextView>(R.id.password).apply {
+            text = "Password: " + user.password
+        }
+        findViewById<TextView>(R.id.lastName).apply {
+            text = "Last Name: " + user.LastName
+        }
+        findViewById<TextView>(R.id.name).apply {
+            text = "First Name: " + user.Name
         }
 
 
