@@ -37,7 +37,9 @@ Pour s'identifier, l'utilisateur rentre son email et son mot de passe.
 Le mot de passe est caché par défaut mais l'utilisateur peur le révéler en clickant sur le symbole en forme d'oeuil.
 ![Password toggle](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/passwordToggle.png)
 
-* Quand on clique sur une cryptomonnaie, des détails sont affichés concernant cette dernière: Son nom(1), son logo(2), sa valeur en $(3), son rang(4) (classement par capitalisation), le site web officiel de la monnaie(5), une description de la monnaie(6).
+* Si l'utilisateur n'a pas de compte, il clique sur "Create account" pour créer un nouveau compte et en suite pouvoir se connecter. Pour cela il doit renseigner son nom, prénom, nom de famille et mot de passe dans les champs correspondants. Les champs ne doivent pas dépasser les limites imposées par les petits conteurs sous ces-deriers. Sinon, ils deviennent rouge pour indiquer à l'utilisateur que c'est trop long
+![Image personnal](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/personnal.png)![compteur](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/counterEnabled.png)
+
 
 * On peut remarquer que la couleur de la fenêtre des détails s'adapte à la coueleur officielle de la cryptomonnaie fournie par l'api(7). Par exemple pour le bitcoin la fenêtre prend des colorations orange (barre de notification et de navigation)
 
