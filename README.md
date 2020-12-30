@@ -59,7 +59,8 @@ Le mot de passe est caché par défaut mais l'utilisateur peur le révéler en c
 
 * Utilisation de Singletons (classe Injection)
   Pour cela j'ai utilisé la dépendance Koin
-  ![Image Test](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/koin.jpg)
+  <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/koin.jpg" width="200">
+<br>
 
 ## Utilisation du GitFlow
 
