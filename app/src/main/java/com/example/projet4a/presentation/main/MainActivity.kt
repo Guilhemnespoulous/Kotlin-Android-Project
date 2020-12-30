@@ -15,11 +15,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        main_button.setOnClickListener{
+        login_button.setOnClickListener{
             mainViewModel.onCLickedIncrement("")
         }
-        mainViewModel.counter.observe(this, Observer {
-            value -> main_text.text = value.toString()
-        })
+
     }
 }
