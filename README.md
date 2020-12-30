@@ -2,17 +2,19 @@
 ![Image Acceuil](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/Accueil.png) ![Image personnal](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/personnal.png)
 ## Description :
 
-CryptApp est une application mobile codée avec Java qui permet de consulter des informations mises à jour en temps réel sur de très nombreuses cryptomonnaies.
-J'ai toujours été très interressé par les cryptomonnaies et donc cela m'a semblé être une bonne idée de créer une application qui permet de montrer leur valeur étant donné que cela varie beaucoup, ainsi que d'autres informations intéressantes.
-La capitalisation sur les cryptomonnaies augmente constament ces dernères années pour atteindre 237 milliards de $ en 2020.
+Projet_Kotlin est une application Android codée avec Kotlin qui permet de se connecter et afficher des informations personnelles liées à un compte. De plus elle permet de créer de nouveaux comptes qui sont ensuite stockés dans la mémoire du téléphone.
 
 ## Installation
 Pour installer l'application il faut:
-1. Disposer d'une version android >16. Affichage optimal des features avec une version >21.
-2. Prendre la branche : [Final Release](https://github.com/Guilhemnespoulous/Projet-CryptApp/tree/FinalRelease)
+1. Disposer d'une version android >21. Affichage optimal des features avec une version >21.
+2. Prendre la branche : [Final Release](https://github.com/Guilhemnespoulous/Projet4A/tree/FinalRelease)
 
-## Api utilisée :
-![Image Coinranking](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/Coinranking.png)
+## Architecture : MVVM
+![Image Architecture](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/MVVMPattern.png)
+
+
+## Technologies utilisée :
+![Image Android](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg)
 
 J'ai utilisé l'api "Coinranking". Cette API gratuite est très complète.
 Le site web officiel de l'API est :
