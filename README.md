@@ -16,26 +16,26 @@ Pour installer l'application il faut:
 ## Technologies utilisée :
 
 ## Android
-<img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg" width="300">
+<img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg" width="200">
 <br>
 
 ## Kotlin
-<img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/kotlin.png" width="300">
+<img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/kotlin.png" width="200">
 <br>
 Language de programmation utilisé.
 
 ## Material
-<img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/material.jpg" width="300">
+<img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/material.jpg" width="200">
 <br>
 Pour les éléments de design et l'ajout de fonctions comme le comptage de caractère sous les champs ou la possibilité de cacher les champs de mot de passe
 
 ## Features :
 
-![Image details3](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/details3.png)
-
-
-* La page d'accueil comporte une RecyclerView qui contient une liste des différentes cryptomonnaies.
-Il y est indiqué leur nom , leur symbole ainsi que leur logo quand il est disponible sur le site.
+![Page d'accueil](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/Accueil.png)
+* La page d'accueil comporte deux entrées qui permettent de s'identifier.
+Pour s'identifier, l'utilisateur rentre son email et son mot de passe.
+Le mot de passe est caché par défaut mais l'utilisateur peur le révéler en clickant sur le symbole en forme d'oeuil.
+![Password toggle](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/passwordToggle.png)
 
 * Quand on clique sur une cryptomonnaie, des détails sont affichés concernant cette dernière: Son nom(1), son logo(2), sa valeur en $(3), son rang(4) (classement par capitalisation), le site web officiel de la monnaie(5), une description de la monnaie(6).
 
