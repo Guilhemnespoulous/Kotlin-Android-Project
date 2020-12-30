@@ -14,7 +14,7 @@ Pour installer l'application il faut:
 
 
 ## Technologies utilisée :
-![Image Android](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg)
+![Image Android](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg | width=300)
 
 J'ai utilisé l'api "Coinranking". Cette API gratuite est très complète.
 Le site web officiel de l'API est :
