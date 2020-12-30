@@ -37,6 +37,9 @@ Pour s'identifier, l'utilisateur rentre son email et son mot de passe.
 Le mot de passe est caché par défaut mais l'utilisateur peur le révéler en clickant sur le symbole en forme d'oeuil.
 ![Password toggle](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/passwordToggle.png)
 
+* Si l'utilisateur tente de se connecter à un compte qui n'éxiste pas ou si il rentre un mauvais mot de passe, il reçoit une alerte d'erreur:
+![Error](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/erreur.png)
+
 * Si l'utilisateur n'a pas de compte, il clique sur "Create account" pour créer un nouveau compte et en suite pouvoir se connecter. Pour cela il doit renseigner son nom, prénom, nom de famille et mot de passe dans les champs correspondants. Les champs ne doivent pas dépasser les limites imposées par les petits conteurs sous ces-deriers. Sinon, ils deviennent rouge pour indiquer à l'utilisateur que c'est trop long
 ![Image creation](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/creationCompte.png)![compteur](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/counterEnabled.png)
 
