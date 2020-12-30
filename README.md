@@ -14,13 +14,16 @@ Pour installer l'application il faut:
 
 
 ## Technologies utilisée :
+
 ## Android
 <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg" width="300">
 <br>
+
 ## Kotlin
 <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/kotlin.png" width="300">
 <br>
 Language de programmation utilisé.
+
 ## Material
 <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/material.jpg" width="300">
 <br>
