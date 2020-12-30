@@ -38,42 +38,28 @@ Le mot de passe est caché par défaut mais l'utilisateur peur le révéler en c
 ![Password toggle](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/passwordToggle.png)
 
 * Si l'utilisateur n'a pas de compte, il clique sur "Create account" pour créer un nouveau compte et en suite pouvoir se connecter. Pour cela il doit renseigner son nom, prénom, nom de famille et mot de passe dans les champs correspondants. Les champs ne doivent pas dépasser les limites imposées par les petits conteurs sous ces-deriers. Sinon, ils deviennent rouge pour indiquer à l'utilisateur que c'est trop long
-![Image personnal](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/personnal.png)![compteur](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/counterEnabled.png)
+![Image creation](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/creationCompte.png)![compteur](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/counterEnabled.png)
 
+* Une fois l'utilisateur connecté il accède à sa page profil, et peut consulter ses informations (email, mot de passe, nom et prénom)
+![Image creation](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/personnal.png)
 
-* On peut remarquer que la couleur de la fenêtre des détails s'adapte à la coueleur officielle de la cryptomonnaie fournie par l'api(7). Par exemple pour le bitcoin la fenêtre prend des colorations orange (barre de notification et de navigation)
-
-* L'utilisateur peur cliquer sur la flèche(8) qui apparaît dans la barre suppérieure afin de revenir à la page d'accueil s'il le souhaite.
+* L'utilisateur peur cliquer sur la flèche qui apparaît dans la barre suppérieure afin de revenir à la page d'accueil s'il le souhaite.
 
 ## Elements techniques :
 
-* Ecran avec liste d'éléments
+* Stockage des données en local evec ROOM
+  Quand l'utilisateur relance l'application, les comptes créés sont sauvegardés.
 
-![Image acceuil2](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/accueil2.png)
 
-* Ecran avec le détail d'un élément sélectionné
+* Test unitaires
 
-![Image Détail2](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/detail2.png)
-
-* Appel à une API rest [Coinranking](https://coinranking.com/)
-
-* Stockage des données en cache
-
-![Image Cache](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/cache.png)
-
-* Architecture en MVC
-
-![Image mvc](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/mvc.png)
+![Image Test](https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/testUnitaire.png)
 
 * Respect des principes SOLID
 
 * Utilisation de Singletons (classe Injection)
 
-![Image singletons](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/singletons.png)
-
-
 ## Utilisation du GitFlow
 
 J'ai utilisé gitFlow afin de simplifier la gestion des versions et des features de ce projet.
 
-![Image gitflow](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/gitflow.png)
