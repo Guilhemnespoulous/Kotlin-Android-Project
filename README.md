@@ -14,15 +14,18 @@ Pour installer l'application il faut:
 
 
 ## Technologies utilisée :
-### Android
+## Android
 <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/android.jpg" width="300">
 <br>
-### Kotlin
+## Kotlin
 <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/kotlin.png" width="300">
 <br>
-###Material
+Language de programmation utilisé.
+## Material
 <img src="https://github.com/Guilhemnespoulous/Projet4A/blob/master/images/material.jpg" width="300">
 <br>
+Pour les éléments de design et l'ajout de fonctions comme le comptage de caractère sous les champs ou la possibilité de cacher les champs de mot de passe
+
 ## Features :
 
 ![Image details3](https://raw.githubusercontent.com/Guilhemnespoulous/Projet-CryptApp/master/images/details3.png)
