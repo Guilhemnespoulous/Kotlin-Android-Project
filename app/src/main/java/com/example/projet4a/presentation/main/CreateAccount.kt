@@ -75,8 +75,9 @@ internal class CreateAccount(Email: String, Password: String) : DialogFragment()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         toolbar!!.setNavigationOnClickListener { dismiss() }
+        toolbar!!.setTitleTextColor(Color.GRAY)
         toolbar!!.title = "Create a new account"
-        toolbar!!.setTitleTextColor(Color.WHITE)
+
         button?.setOnClickListener {
             val user = User(email_edit.text.toString().trim(), password_edit.text.toString().trim(), lastname_edit.text.toString().trim(), firstname_edit.text.toString().trim())
             createAccountViewModel.onClicked(user)
